@@ -1,42 +1,54 @@
 const proyectos = [
   {
-    titulo: "Mi Proyecto",
-    desc: "Descripción breve de tu proyecto principal.",
+    titulo: "HardAgenda",
+    desc: "Sistema de gestión de turnos médicos. Python + PyQt6 + FastAPI + PostgreSQL. Con servidor FastAPI compartido, versión Android y auto-refresh.",
     lenguaje: "Python",
-    url: "https://github.com/tu-usuario/proyecto"
+    url: "https://github.com/SpeedMetal444/HardAgenda"
   },
   {
-    titulo: "Web App",
-    desc: "Una aplicación web que construí con HTML, CSS y JS.",
-    lenguaje: "JavaScript",
-    url: "https://github.com/tu-usuario/web-app"
+    titulo: "HardAgenda Android",
+    desc: "Versión Android del sistema de turnos. Kotlin. Se conecta al mismo servidor FastAPI que la versión desktop.",
+    lenguaje: "Kotlin",
+    url: "https://github.com/SpeedMetal444/HardAgenda-Android"
   },
   {
-    titulo: "CLI Tool",
-    desc: "Herramienta de línea de comandos para automatizar tareas.",
-    lenguaje: "Go",
-    url: "https://github.com/tu-usuario/cli-tool"
+    titulo: "HardForms",
+    desc: "Gestión de pacientes, estudios y diagnósticos médicos. Python + PyQt6 + SQLite + ReportLab. Genera informes PDF en escala de grises.",
+    lenguaje: "Python",
+    url: "https://github.com/SpeedMetal444/HardForms"
+  },
+  {
+    titulo: "InsCarProject",
+    desc: "Sistema de gestión de pacientes con PyQt6 y PostgreSQL. Busca, agrega, actualiza y elimina pacientes, renueva planes y verifica vencimientos.",
+    lenguaje: "Python",
+    url: "https://github.com/SpeedMetal444/InsCarProject"
+  },
+  {
+    titulo: "Lippia AutomationExercise",
+    desc: "Proyecto de automatización web E2E con Lippia (Cucumber + TestNG + Selenium). Pruebas positivas y negativas sobre AutomationExercise.",
+    lenguaje: "Java",
+    url: "https://github.com/SpeedMetal444/lippia-automationexercise-web-project"
+  },
+  {
+    titulo: "Tella Testing Android",
+    desc: "Pasantía como QA Automation. Pruebas manuales y automatizadas para la app Tella con Lippia Mobile Framework.",
+    lenguaje: "Java",
+    url: "https://github.com/Horizontal-org/Tella-Testing-Android"
   }
 ];
 
 const programitas = [
   {
-    titulo: "Hola Mundo",
-    desc: "Mi primer programa.",
+    titulo: "Hyperblog",
+    desc: "Proyecto de curso - Blog de ejemplo con Git y GitHub.",
+    lenguaje: "HTML",
+    url: "https://github.com/SpeedMetal444/Hyperblog"
+  },
+  {
+    titulo: "CookieCutter Personal",
+    desc: "Template de proyectos Python con Cookiecutter.",
     lenguaje: "Python",
-    url: "https://github.com/tu-usuario/hola-mundo"
-  },
-  {
-    titulo: "Calculadora",
-    desc: "Calculadora simple en la terminal.",
-    lenguaje: "C",
-    url: "https://github.com/tu-usuario/calculadora"
-  },
-  {
-    titulo: "To-Do List",
-    desc: "App de tareas pendientes.",
-    lenguaje: "JavaScript",
-    url: "https://github.com/tu-usuario/todo-list"
+    url: "https://github.com/SpeedMetal444/cookiecutter-personal"
   }
 ];
 
