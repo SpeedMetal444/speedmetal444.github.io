@@ -59,7 +59,7 @@
             experience: {
                 title: 'Experiencia Profesional',
                 job1: {
-                    date:    'Marzo 2026 – Actualidad',
+                    date:    'Marzo 2026',
                     role:    'QA Automation Engineer',
                     company: 'Horizontal – Proyecto Tella Mobile',
                     desc:    'Automatización de escenarios críticos de negocio para aplicaciones Android. Desarrollo y mantenimiento de suites de pruebas E2E utilizando Lippia y Appium. Colaboración en entornos ágiles (Scrum) para mejora continua de la calidad.'
@@ -140,7 +140,7 @@
             experience: {
                 title: 'Professional Experience',
                 job1: {
-                    date:    'March 2026 – Present',
+                    date:    'March 2026',
                     role:    'QA Automation Engineer',
                     company: 'Horizontal – Tella Mobile Project',
                     desc:    'Automation of critical business scenarios for Android applications. Development and maintenance of E2E test suites using Lippia and Appium. Collaboration in agile environments (Scrum) for continuous quality improvement.'
