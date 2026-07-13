@@ -37,6 +37,9 @@
                 hardagenda: {
                     desc: '<strong>Problema:</strong> Gestión de turnos médicos sin sincronización en tiempo real entre escritorio y móvil.<br><strong>Solución:</strong> Arquitectura Cliente-Servidor con FastAPI y PostgreSQL. Sincronización de datos en vivo.<br><strong>Aprendizaje:</strong> Profundidad en APIs REST, concurrencia de bases de datos y validación de integridad.<br><strong>Valor QA:</strong> Diseño pruebas E2E que validan flujos críticos de datos y consistencia en sistemas distribuidos.'
                 },
+                hardagendaandroid: {
+                    desc: '<strong>Problema:</strong> Necesidad de acceder al sistema de turnos desde móvil sin conexión directa a PostgreSQL.<br><strong>Solución:</strong> App nativa Android (Kotlin) consumiendo la misma API FastAPI que el cliente desktop.<br><strong>Aprendizaje:</strong> Arquitectura cliente-servidor móvil, consumo de APIs REST, manejo de red offline-first.<br><strong>Valor QA:</strong> Validación de contratos API desde cliente real, pruebas de integración mobile-backend y testing de sincronización.'
+                },
                 hardforms: {
                     desc: '<strong>Problema:</strong> Gestión manual de informes médicos y falta de estandarización en reportes.<br><strong>Solución:</strong> App de escritorio con generación dinámica de PDFs y gestión de imágenes.<br><strong>Aprendizaje:</strong> Lógica de negocio compleja, manipulación de archivos y validación de datos.<br><strong>Valor QA:</strong> Capacidad para probar flujos de negocio detallados y validar la integridad de reportes generados.'
                 },
@@ -114,6 +117,9 @@
                 link:  { code: 'View Code' },
                 hardagenda: {
                     desc: '<strong>Problem:</strong> Medical appointment management without real-time sync between desktop and mobile.<br><strong>Solution:</strong> Client-Server architecture with FastAPI and PostgreSQL. Live data synchronization.<br><strong>Takeaway:</strong> Deep understanding of REST APIs, database concurrency, and integrity validation.<br><strong>QA Value:</strong> Designing E2E tests that validate critical data flows and consistency in distributed systems.'
+                },
+                hardagendaandroid: {
+                    desc: '<strong>Problem:</strong> Need to access the appointment system from mobile without direct PostgreSQL connection.<br><strong>Solution:</strong> Native Android app (Kotlin) consuming the same FastAPI API as the desktop client.<br><strong>Takeaway:</strong> Mobile client-server architecture, REST API consumption, offline-first network handling.<br><strong>QA Value:</strong> Validating API contracts from a real client, mobile-backend integration testing, and synchronization testing.'
                 },
                 hardforms: {
                     desc: '<strong>Problem:</strong> Manual medical report management and lack of report standardization.<br><strong>Solution:</strong> Desktop app with dynamic PDF generation and image attachment management.<br><strong>Takeaway:</strong> Complex business logic, file handling, and data validation.<br><strong>QA Value:</strong> Ability to test detailed business flows and validate the integrity of generated reports.'

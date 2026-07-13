@@ -1,24 +1,45 @@
-# Portafolio - Abel Godoy
+# Hugo Abel Godoy – QA Automation Engineer Portfolio
 
-Mi portafolio personal con proyectos y programitas. Publicado con GitHub Pages.
+Professional portfolio for **Hugo Abel Godoy**, QA Automation Engineer specialized in web and mobile test automation with solid software development knowledge.
 
-**Sitio en vivo:** [abelgodoy.github.io](https://abelgodoy.github.io)
+**Live site:** [speedmetal444.github.io](https://speedmetal444.github.io)
 
-## Proyectos principales
+---
 
-| Proyecto | Descripción | Stack |
+## Featured Projects
+
+| Project | Description | Stack |
 |---|---|---|
-| [HardAgenda](https://github.com/SpeedMetal444/HardAgenda) | Sistema de gestión de turnos médicos con servidor FastAPI compartido | Python, PyQt6, FastAPI, PostgreSQL |
-| [HardAgenda Android](https://github.com/SpeedMetal444/HardAgenda-Android) | Versión Android de HardAgenda conectada al mismo servidor | Kotlin, FastAPI |
-| [HardForms](https://github.com/SpeedMetal444/HardForms) | Gestión de pacientes, estudios e informes PDF médicos | Python, PyQt6, SQLite, ReportLab |
-| [InsCarProject](https://github.com/SpeedMetal444/InsCarProject) | Sistema de gestión de pacientes con PostgreSQL | Python, PyQt6, PostgreSQL |
-| [Lippia AutomationExercise](https://github.com/SpeedMetal444/lippia-automationexercise-web-project) | Automatización web E2E con Lippia | Java, Cucumber, TestNG, Selenium |
-| [Tella Testing Android](https://github.com/Horizontal-org/Tella-Testing-Android) | Pasantía QA Automation - Pruebas móviles automatizadas | Java, Lippia Mobile, Appium |
+| [HardAgenda](https://github.com/SpeedMetal444/HardAgenda) | Medical appointment management system with shared FastAPI server | Python, PyQt6, FastAPI, PostgreSQL |
+| [HardAgenda Android](https://github.com/SpeedMetal444/HardAgenda-Android) | Android version of HardAgenda connected to the same server | Kotlin, FastAPI |
+| [HardForms](https://github.com/SpeedMetal444/HardForms) | Patient, studies and medical PDF reports management | Python, PyQt6, SQLite, ReportLab |
+| [InsCarProject](https://github.com/SpeedMetal444/InsCarProject) | Patient management system with PostgreSQL | Python, PyQt6, PostgreSQL |
+| [Lippia AutomationExercise](https://github.com/SpeedMetal444/lippia-automationexercise-web-project) | Web E2E automation with Lippia | Java, Cucumber, TestNG, Selenium |
+| [Tella Testing Android](https://github.com/Horizontal-org/Tella-Testing-Android) | QA Automation Internship – Automated mobile testing | Java, Lippia Mobile, Appium |
 
-## Tecnologías
+---
 
-Python · Kotlin · Java · JavaScript · PyQt6 · FastAPI · PostgreSQL · SQLite · Selenium · Appium · Cucumber · TestNG
+## Tech Stack
 
-## Licencia
+**Automation & QA**  
+Selenium · Appium · Java · Cucumber · TestNG · Lippia · Postman · GitHub Actions · Docker · CI/CD
+
+**Development & Infrastructure**  
+Python · Kotlin · FastAPI · PostgreSQL · SQLite · Git · Maven · Linux
+
+---
+
+## Features
+
+- **Bilingual** – Spanish / English with browser detection and localStorage persistence
+- **Dark theme** – Professional design inspired by Vercel, Linear, Stripe
+- **Vanilla stack** – HTML, CSS, JavaScript (no frameworks)
+- **Responsive** – Mobile-first, works on all devices
+- **Accessible** – Semantic HTML, ARIA labels, keyboard navigation
+- **SEO ready** – Dynamic meta tags, proper headings, semantic structure
+
+---
+
+## License
 
 MIT
