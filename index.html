@@ -1,53 +1,311 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portafolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Hugo Abel Godoy - QA Automation Engineer especializado en automatización web y móvil con sólidos conocimientos de desarrollo de software.">
+    <meta name="keywords" content="QA Automation, SDET, Selenium, Appium, Java, Python, Testing, Hugo Abel Godoy">
+    <meta name="author" content="Hugo Abel Godoy">
+    <meta name="theme-color" content="#050505">
+    
+    <title>Hugo Abel Godoy | QA Automation Engineer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Mi Portafolio</h1>
-      <p class="subtitle">Proyectos personales y programitas</p>
-      <nav>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#programitas">Programitas</a>
-        <a href="#sobre-mi">Sobre mí</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section id="proyectos">
-      <h2>Proyectos</h2>
-      <div class="grid" id="proyectos-grid"></div>
-    </section>
-
-    <section id="programitas">
-      <h2>Programitas</h2>
-      <div class="grid" id="programitas-grid"></div>
-    </section>
-
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
-      <div class="card about">
-        <p>QA Engineer metiendole ganas a todo lo que se cruza, creando apps útiles para compartir con todos. De Corrientes, Argentina.</p>
-        <div class="social-links">
-          <a href="https://github.com/SpeedMetal444" target="_blank">GitHub</a>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" data-i18n="logo">Hugo Abel Godoy</a>
+            <div class="nav-right">
+                <div class="lang-switch" id="lang-switch">
+                    <button class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+                    <span class="lang-sep">|</span>
+                    <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#proyectos" class="nav-link" data-i18n="nav.projects">Proyectos</a></li>
+                <li><a href="#stack" class="nav-link" data-i18n="nav.stack">Stack</a></li>
+                <li><a href="#experiencia" class="nav-link" data-i18n="nav.experience">Experiencia</a></li>
+                <li><a href="#contacto" class="nav-link" data-i18n="nav.contact">Contacto</a></li>
+            </ul>
         </div>
-      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-badge" data-i18n="hero.badge">QA Automation Engineer</div>
+            <h1 class="hero-title" data-i18n="hero.title">
+                Automatizo pruebas web y móviles con la profundidad técnica de un desarrollador.
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+                Especialista en Java, Selenium y Appium. Entiendo cómo se construye el software para diseñar estrategias de testing más efectivas, detectar bugs antes y colaborar mejor con los equipos de desarrollo.
+            </p>
+            <div class="hero-actions">
+                <a href="#proyectos" class="btn btn-primary" data-i18n="hero.cta1">Ver Proyectos</a>
+                <a href="#contacto" class="btn btn-secondary" data-i18n="hero.cta2">Contactar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stack Tecnológico -->
+    <section class="section" id="stack">
+        <div class="container">
+            <h2 class="section-title" data-i18n="stack.title">Stack Tecnológico</h2>
+            <div class="stack-grid">
+                <div class="stack-column">
+                    <h3 class="stack-category" data-i18n="stack.qa">Automatización & QA</h3>
+                    <div class="stack-tags">
+                        <span class="stack-tag">Selenium</span>
+                        <span class="stack-tag">Appium</span>
+                        <span class="stack-tag">Java</span>
+                        <span class="stack-tag">Cucumber</span>
+                        <span class="stack-tag">TestNG</span>
+                        <span class="stack-tag">Lippia</span>
+                        <span class="stack-tag">Postman</span>
+                        <span class="stack-tag">GitHub Actions</span>
+                        <span class="stack-tag">Docker</span>
+                        <span class="stack-tag">CI/CD</span>
+                    </div>
+                </div>
+                <div class="stack-column">
+                    <h3 class="stack-category sub" data-i18n="stack.dev">Desarrollo & Infraestructura</h3>
+                    <div class="stack-tags">
+                        <span class="stack-tag sub">Python</span>
+                        <span class="stack-tag sub">FastAPI</span>
+                        <span class="stack-tag sub">PostgreSQL</span>
+                        <span class="stack-tag sub">SQLite</span>
+                        <span class="stack-tag sub">Kotlin (Android)</span>
+                        <span class="stack-tag sub">Git</span>
+                        <span class="stack-tag sub">Maven</span>
+                        <span class="stack-tag sub">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 Mi Portafolio</p>
-    </div>
-  </footer>
+    <!-- Proyectos -->
+    <section class="section" id="proyectos">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">Proyectos & Casos de Estudio</h2>
+            <div class="projects-grid">
+                
+                <!-- HardAgenda -->
+                <article class="project-card" data-category="dev">
+                    <div class="project-header">
+                        <h3>HardAgenda</h3>
+                        <span class="project-badge" data-i18n="projects.badge.dev">Dev Insight</span>
+                    </div>
+                    <p class="project-desc" data-i18n="projects.hardagenda.desc">
+                        <strong>Problema:</strong> Gestión de turnos médicos sin sincronización en tiempo real entre escritorio y móvil.<br>
+                        <strong>Solución:</strong> Arquitectura Cliente-Servidor con FastAPI y PostgreSQL. Sincronización de datos en vivo.<br>
+                        <strong>Aprendizaje:</strong> Profundidad en APIs REST, concurrencia de bases de datos y validación de integridad.<br>
+                        <strong>Valor QA:</strong> Diseño pruebas E2E que validan flujos críticos de datos y consistencia en sistemas distribuidos.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span><span>FastAPI</span><span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SpeedMetal444/HardAgenda" target="_blank" rel="noopener noreferrer" class="link-github" data-i18n="projects.link.code">Ver Código</a>
+                    </div>
+                </article>
 
-  <script src="script.js"></script>
+                <!-- HardForms -->
+                <article class="project-card" data-category="dev">
+                    <div class="project-header">
+                        <h3>HardForms</h3>
+                        <span class="project-badge" data-i18n="projects.badge.dev">Dev Insight</span>
+                    </div>
+                    <p class="project-desc" data-i18n="projects.hardforms.desc">
+                        <strong>Problema:</strong> Gestión manual de informes médicos y falta de estandarización en reportes.<br>
+                        <strong>Solución:</strong> App de escritorio con generación dinámica de PDFs y gestión de imágenes.<br>
+                        <strong>Aprendizaje:</strong> Lógica de negocio compleja, manipulación de archivos y validación de datos.<br>
+                        <strong>Valor QA:</strong> Capacidad para probar flujos de negocio detallados y validar la integridad de reportes generados.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span><span>PyQt6</span><span>SQLite</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SpeedMetal444/HardForms" target="_blank" rel="noopener noreferrer" class="link-github" data-i18n="projects.link.code">Ver Código</a>
+                    </div>
+                </article>
+
+                <!-- InsCar -->
+                <article class="project-card" data-category="dev">
+                    <div class="project-header">
+                        <h3>InsCar Project</h3>
+                        <span class="project-badge" data-i18n="projects.badge.dev">Dev Insight</span>
+                    </div>
+                    <p class="project-desc" data-i18n="projects.inscar.desc">
+                        <strong>Problema:</strong> Control ineficiente de pacientes y vigencias de planes de salud.<br>
+                        <strong>Solución:</strong> Sistema de gestión con alertas automáticas y exportación de datos.<br>
+                        <strong>Aprendizaje:</strong> Modelado de datos relacionales y lógica de validación de estados.<br>
+                        <strong>Valor QA:</strong> Entendimiento de reglas de negocio para diseñar casos de prueba de validación robustos.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span><span>PostgreSQL</span><span>PyQt6</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SpeedMetal444/InsCarProject" target="_blank" rel="noopener noreferrer" class="link-github" data-i18n="projects.link.code">Ver Código</a>
+                    </div>
+                </article>
+
+                <!-- Tella Testing -->
+                <article class="project-card" data-category="qa">
+                    <div class="project-header">
+                        <h3>Tella Testing Android</h3>
+                        <span class="project-badge" data-i18n="projects.badge.qa">QA Core</span>
+                    </div>
+                    <p class="project-desc" data-i18n="projects.tella.desc">
+                        <strong>Problema:</strong> Falta de automatización en pruebas de regresión para aplicación móvil crítica.<br>
+                        <strong>Solución:</strong> Suite E2E con Appium, Lippia y Docker. Ejecución en contenedores.<br>
+                        <strong>Aprendizaje:</strong> Desafíos de automatización móvil, estabilidad de tests y CI/CD.<br>
+                        <strong>Valor QA:</strong> Automatización de flujos críticos en Android, reduciendo tiempo de release y bugs en producción.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span><span>Appium</span><span>Lippia</span><span>Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Horizontal-org/Tella-Testing-Android" target="_blank" rel="noopener noreferrer" class="link-github" data-i18n="projects.link.code">Ver Código</a>
+                    </div>
+                </article>
+
+                <!-- Lippia AutomationExercise -->
+                <article class="project-card" data-category="qa">
+                    <div class="project-header">
+                        <h3>Lippia AutomationExercise</h3>
+                        <span class="project-badge" data-i18n="projects.badge.qa">QA Core</span>
+                    </div>
+                    <p class="project-desc" data-i18n="projects.lippiaweb.desc">
+                        <strong>Problema:</strong> Necesidad de validar flujos completos de e-commerce (carrito, checkout) de forma automatizada.<br>
+                        <strong>Solución:</strong> Framework BDD con Selenium, Cucumber y TestNG. Reportes ExtentReports.<br>
+                        <strong>Aprendizaje:</strong> Patrones Page Object, BDD y generación de reportes ejecutables.<br>
+                        <strong>Valor QA:</strong> Diseño de suites de pruebas escalables y mantenibles para regresión web continua.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span><span>Selenium</span><span>Cucumber</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SpeedMetal444/lippia-automationexercise-web-project" target="_blank" rel="noopener noreferrer" class="link-github" data-i18n="projects.link.code">Ver Código</a>
+                    </div>
+                </article>
+
+                <!-- Lippia API Sample -->
+                <article class="project-card" data-category="qa">
+                    <div class="project-header">
+                        <h3>Lippia API Sample</h3>
+                        <span class="project-badge" data-i18n="projects.badge.qa">QA Core</span>
+                    </div>
+                    <p class="project-desc" data-i18n="projects.lippiaapi.desc">
+                        <strong>Problema:</strong> Validación de contratos backend sin depender de la interfaz visual.<br>
+                        <strong>Solución:</strong> Automatización de pruebas REST API con Lippia y Postman.<br>
+                        <strong>Aprendizaje:</strong> Validación de respuestas JSON, códigos HTTP y estructura de datos.<br>
+                        <strong>Valor QA:</strong> Pruebas de integración tempranas, detectando errores de servidor antes del frontend.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span><span>REST API</span><span>Postman</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/SpeedMetal444/lippia-api-sample-project" target="_blank" rel="noopener noreferrer" class="link-github" data-i18n="projects.link.code">Ver Código</a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="section" id="experiencia">
+        <div class="container">
+            <h2 class="section-title" data-i18n="experience.title">Experiencia Profesional</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date" data-i18n="experience.job1.date">Marzo 2026 – Actualidad</div>
+                        <h3 data-i18n="experience.job1.role">QA Automation Engineer</h3>
+                        <h4 data-i18n="experience.job1.company">Horizontal – Proyecto Tella Mobile</h4>
+                        <p class="timeline-desc" data-i18n="experience.job1.desc">
+                            Automatización de escenarios críticos de negocio para aplicaciones Android. Desarrollo y mantenimiento de suites de pruebas E2E utilizando Lippia y Appium. Colaboración en entornos ágiles (Scrum) para mejora continua de la calidad.
+                        </p>
+                        <div class="timeline-tech">
+                            <span>Java</span><span>Appium</span><span>Lippia</span><span>CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date" data-i18n="experience.job2.date">Diciembre 2017 – Actualidad</div>
+                        <h3 data-i18n="experience.job2.role">Técnico Informático</h3>
+                        <h4 data-i18n="experience.job2.company">Softbrick y Hardbrick</h4>
+                        <p class="timeline-desc" data-i18n="experience.job2.desc">
+                            Diagnóstico, reparación y mantenimiento preventivo/correctivo de hardware y software. Optimización de procesos de resolución de incidencias y recuperación de equipos.
+                        </p>
+                        <div class="timeline-tech">
+                            <span>Hardware</span><span>Soporte</span><span>Windows/Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación -->
+    <section class="section" id="educacion">
+        <div class="container">
+            <h2 class="section-title" data-i18n="education.title">Educación</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3 data-i18n="education.edu1.title">Advanced QA Automation</h3>
+                    <p data-i18n="education.edu1.school">Crowdar Academy</p>
+                    <span class="year">2025</span>
+                </div>
+                <div class="education-item">
+                    <h3 data-i18n="education.edu2.title">Análisis de Datos</h3>
+                    <p data-i18n="education.edu2.school">Platzi</p>
+                    <span class="year">2024</span>
+                </div>
+                <div class="education-item">
+                    <h3 data-i18n="education.edu3.title">Electrónica de Notebooks</h3>
+                    <p data-i18n="education.edu3.school">Marketech</p>
+                    <span class="year">2018</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto / Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container footer-container">
+            <h2 data-i18n="footer.title">¿Listo para mejorar la calidad de tu producto?</h2>
+            <p data-i18n="footer.subtitle">Estoy disponible para nuevos desafíos como QA Automation Engineer.</p>
+            <a href="mailto:abelgodoy.1802@gmail.com" class="btn btn-primary btn-large">abelgodoy.1802@gmail.com</a>
+            
+            <div class="footer-links">
+                <a href="https://github.com/SpeedMetal444" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/abel-godoy-675328221" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+            
+            <div class="copyright" data-i18n="footer.copyright">
+                &copy; 2026 Hugo Abel Godoy. Built with Vanilla.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
