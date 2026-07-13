@@ -22,7 +22,7 @@ Professional portfolio for **Hugo Abel Godoy**, QA Automation Engineer specializ
 ## Tech Stack
 
 **Automation & QA**  
-Selenium · Appium · Java · Cucumber · TestNG · Lippia · Postman · GitHub Actions · Docker · CI/CD
+Selenium · Appium · Java · Cucumber · TestNG · Lippia · Postman · GitHub Actions · Docker · Cypress · CI/CD
 
 **Development & Infrastructure**  
 Python · Kotlin · FastAPI · PostgreSQL · SQLite · Git · Maven · Linux
