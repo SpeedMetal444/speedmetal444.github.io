@@ -1,6 +1,6 @@
-# Hugo Abel Godoy – QA Automation Engineer Portfolio
+# Hugo Abel Godoy - QA Automation Engineer Portfolio
 
-Professional portfolio for **Hugo Abel Godoy**, QA Automation Engineer specialized in web and mobile test automation with solid software development knowledge.
+Professional portfolio for **Hugo Abel Godoy**, QA Automation Engineer with experience in web and mobile test automation.
 
 **Live site:** [speedmetal444.github.io](https://speedmetal444.github.io)
 
@@ -15,28 +15,31 @@ Professional portfolio for **Hugo Abel Godoy**, QA Automation Engineer specializ
 | [HardForms](https://github.com/SpeedMetal444/HardForms) | Patient, studies and medical PDF reports management | Python, PyQt6, SQLite, ReportLab |
 | [InsCarProject](https://github.com/SpeedMetal444/InsCarProject) | Patient management system with PostgreSQL | Python, PyQt6, PostgreSQL |
 | [Lippia AutomationExercise](https://github.com/SpeedMetal444/lippia-automationexercise-web-project) | Web E2E automation with Lippia | Java, Cucumber, TestNG, Selenium |
-| [Tella Testing Android](https://github.com/Horizontal-org/Tella-Testing-Android) | QA Automation Internship – Automated mobile testing | Java, Lippia Mobile, Appium |
+| [Tella Testing Android](https://github.com/Horizontal-org/Tella-Testing-Android) | Automated mobile testing with Appium and Lippia | Java, Appium, Lippia |
 
 ---
 
 ## Tech Stack
 
 **Automation & QA**  
-Selenium · Appium · Java · Cucumber · TestNG · Lippia · Postman · GitHub Actions · Docker · Cypress · CI/CD
+Selenium · Appium · Java · Cucumber · TestNG · Lippia · Postman · GitHub Actions
 
-**Development & Infrastructure**  
-Python · Kotlin · FastAPI · PostgreSQL · SQLite · Git · Maven · Linux
+**Development**  
+Python · Kotlin · FastAPI · PostgreSQL · SQLite · Git · Maven
+
+**Learning**  
+Docker · Playwright · Cypress
 
 ---
 
 ## Features
 
-- **Bilingual** – Spanish / English with browser detection and localStorage persistence
-- **Dark theme** – Professional design inspired by Vercel, Linear, Stripe
-- **Vanilla stack** – HTML, CSS, JavaScript (no frameworks)
-- **Responsive** – Mobile-first, works on all devices
-- **Accessible** – Semantic HTML, ARIA labels, keyboard navigation
-- **SEO ready** – Dynamic meta tags, proper headings, semantic structure
+- **Bilingual** - Spanish / English with browser detection and localStorage persistence
+- **Dark theme** - Clean professional design
+- **Vanilla stack** - HTML, CSS, JavaScript (no frameworks)
+- **Responsive** - Mobile-first, works on all devices
+- **Accessible** - Semantic HTML, ARIA labels, keyboard navigation
+- **SEO ready** - Dynamic meta tags, proper headings, semantic structure
 
 ---
 

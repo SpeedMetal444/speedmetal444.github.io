@@ -21,7 +21,7 @@
             hero: {
                 badge:    'QA Automation Engineer',
                 title:    'Automatizo pruebas web y móviles con la profundidad técnica de un desarrollador.',
-                subtitle: 'Especialista en Java, Selenium y Appium. Entiendo cómo se construye el software para diseñar estrategias de testing más efectivas, detectar bugs antes y colaborar mejor con los equipos de desarrollo.',
+                subtitle: 'Con experiencia en Java, Selenium y Appium. Entiendo cómo se construye el software para diseñar estrategias de testing más efectivas, detectar bugs antes y colaborar mejor con los equipos de desarrollo.',
                 cta1:     'Ver Proyectos',
                 cta2:     'Contactar'
             },
@@ -47,7 +47,7 @@
                     desc: '<strong>Problema:</strong> Control ineficiente de pacientes y vigencias de planes de salud.<br><strong>Solución:</strong> Sistema de gestión con alertas automáticas y exportación de datos.<br><strong>Aprendizaje:</strong> Modelado de datos relacionales y lógica de validación de estados.<br><strong>Valor QA:</strong> Entendimiento de reglas de negocio para diseñar casos de prueba de validación robustos.'
                 },
                 tella: {
-                    desc: '<strong>Problema:</strong> Falta de automatización en pruebas de regresión para aplicación móvil crítica.<br><strong>Solución:</strong> Suite E2E con Appium, Lippia y Docker. Ejecución en contenedores.<br><strong>Aprendizaje:</strong> Desafíos de automatización móvil, estabilidad de tests y CI/CD.<br><strong>Valor QA:</strong> Automatización de flujos críticos en Android, reduciendo tiempo de release y bugs en producción.'
+                    desc: '<strong>Problema:</strong> Falta de automatización en pruebas de regresión para aplicación móvil.<br><strong>Solución:</strong> Suite E2E con Appium y Lippia.<br><strong>Aprendizaje:</strong> Desafíos de automatización móvil y estabilidad de tests.<br><strong>Valor QA:</strong> Automatización de flujos críticos en Android.'
                 },
                 lippiaweb: {
                     desc: '<strong>Problema:</strong> Necesidad de validar flujos completos de e-commerce (carrito, checkout) de forma automatizada.<br><strong>Solución:</strong> Framework BDD con Selenium, Cucumber y TestNG. Reportes ExtentReports.<br><strong>Aprendizaje:</strong> Patrones Page Object, BDD y generación de reportes ejecutables.<br><strong>Valor QA:</strong> Diseño de suites de pruebas escalables y mantenibles para regresión web continua.'
@@ -88,7 +88,7 @@
             },
             meta: {
                 title:       'Hugo Abel Godoy | QA Automation Engineer',
-                description: 'Portfolio de Hugo Abel Godoy - QA Automation Engineer especializado en automatización web y móvil con sólidos conocimientos de desarrollo de software.'
+                description: 'Portfolio de Hugo Abel Godoy - QA Automation Engineer con experiencia en automatización web y móvil y conocimientos de desarrollo de software.'
             }
         },
         en: {
@@ -102,7 +102,7 @@
             hero: {
                 badge:    'QA Automation Engineer',
                 title:    'I automate web and mobile tests with the technical depth of a developer.',
-                subtitle: 'Specialist in Java, Selenium and Appium. I understand how software is built to design more effective testing strategies, detect bugs earlier, and collaborate better with development teams.',
+                subtitle: 'Experienced with Java, Selenium and Appium. I understand how software is built to design more effective testing strategies, detect bugs earlier, and collaborate better with development teams.',
                 cta1:     'View Projects',
                 cta2:     'Get in Touch'
             },
@@ -128,7 +128,7 @@
                     desc: '<strong>Problem:</strong> Inefficient patient control and health plan expiry tracking.<br><strong>Solution:</strong> Management system with automatic alerts and data export.<br><strong>Takeaway:</strong> Relational data modeling and state validation logic.<br><strong>QA Value:</strong> Understanding business rules to design robust validation test cases.'
                 },
                 tella: {
-                    desc: '<strong>Problem:</strong> Lack of automation in regression testing for a critical mobile app.<br><strong>Solution:</strong> E2E suite with Appium, Lippia, and Docker. Containerized execution.<br><strong>Takeaway:</strong> Mobile automation challenges, test stability, and CI/CD integration.<br><strong>QA Value:</strong> Automating critical flows on Android, reducing release time and production bugs.'
+                    desc: '<strong>Problem:</strong> Lack of automation in regression testing for a mobile app.<br><strong>Solution:</strong> E2E suite with Appium and Lippia.<br><strong>Takeaway:</strong> Mobile automation challenges and test stability.<br><strong>QA Value:</strong> Automating critical flows on Android.'
                 },
                 lippiaweb: {
                     desc: '<strong>Problem:</strong> Need to validate complete e-commerce flows (cart, checkout) in an automated way.<br><strong>Solution:</strong> BDD framework with Selenium, Cucumber, and TestNG. ExtentReports reporting.<br><strong>Takeaway:</strong> Page Object patterns, BDD, and executable report generation.<br><strong>QA Value:</strong> Designing scalable and maintainable test suites for continuous web regression.'
@@ -169,7 +169,7 @@
             },
             meta: {
                 title:       'Hugo Abel Godoy | QA Automation Engineer',
-                description: 'Hugo Abel Godoy – QA Automation Engineer specialized in web and mobile test automation with solid software development knowledge.'
+                description: 'Hugo Abel Godoy – QA Automation Engineer with experience in web and mobile test automation and software development knowledge.'
             }
         }
     };
